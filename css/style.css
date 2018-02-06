@@ -1,30 +1,103 @@
 
 /* select all <div> node */
-div
-{
-    position: fixed;
-}
+
 
 body {
     margin : 0;
     padding: 0;
     
-    overflow: hidden;
+   
 }
 
-img {
-    width : 100%;
+.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: url("../assets/en_1.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#mc_embed_signup{
+    
+    position: absolute;
+    
+    background-color: rgba(0, 0, 0, 0.25);
+
+    font:25vw Helvetica,Arial,sans-serif;
+    color:white;
+    border-radius: 10px;
+    top: 0;
+    left: 50%;
+    
+    width: 500px;
+    height: 125px;
+    
+    transform: translateX(-50%) translateY(-50%);
+}
+
+label{
+    text-align: center;
+}
+
+input {
+    
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.center{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.clear{
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.container{
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    height: 150px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.facebook{
+    position: absolute;
+    top: 90%;
+    left: 53%;
+    width: 45px;
+    height: 45px;
+    transform: translateX(-50%) translateY(-50%);
 
 }
 
-.center {
-    width : 1920px;
-    height : 242px;
-    
-    
-    top:50%; 
-    left:62.5%;
-    
-    margin-left : -37.5%;
-    margin-top : 12%;
+.twitter{
+    position: absolute;
+    top: 90%;
+    left: 47%;
+    width: 45px;
+    height: 45px;
+    transform: translateX(-50%) translateY(-50%);
+
 }
