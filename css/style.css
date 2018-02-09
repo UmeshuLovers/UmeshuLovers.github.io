@@ -31,10 +31,10 @@ body {
 
 #mc_embed_signup{
     
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0);
 
     font:25vw Helvetica,Arial,sans-serif;
-    color:white;
+     color: #c9bf87;
     border-radius: 10px;
 
     width: 500px;
@@ -135,7 +135,7 @@ font-size: 1.2em;
     
     transform: translateX(-50%) translateY(0%);
     
-    color:white;
+     color: #c9bf87;
     text-align: justify;
     
 }
