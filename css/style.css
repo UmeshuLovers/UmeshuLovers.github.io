@@ -11,6 +11,14 @@
 	font-style: normal;
 }
 
+iframe{
+
+    margin: auto;
+    text-align: center;
+    display: block;
+
+}
+
 body {
     margin : 0;
     padding: 0;
