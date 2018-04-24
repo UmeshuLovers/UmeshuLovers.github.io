@@ -17,6 +17,19 @@
     overflow: hidden;
     
 }
+
+#kickstarter{
+        text-align: center;
+
+}
+
+#demo{
+    position: relative;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+
+}
  
 /* 16x9 Aspect Ratio */
 .intrinsic-container-16x9 {
