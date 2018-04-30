@@ -22,42 +22,18 @@
     
     <body>
         <div></div>
-        
-        <script>
-            // Set the date we're counting down to
-            var countDownDate = new Date("Apr 30, 2018 15:37:25").getTime();
 
-            // Update the count down every 1 second
-            var x = setInterval(function() {
-
-              // Get todays date and time
-              var now = new Date().getTime();
-
-              // Find the distance between now an the count down date
-              var distance = countDownDate - now;
-
-              // Time calculations for days, hours, minutes and seconds
-              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-              // Display the result in the element with id="demo"
-              document.getElementById("demo").innerHTML = days + " DAYS "
-
-              // If the count down is finished, write some text 
-              if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
-              }
-            }, 1000);
-    </script>
         <div class="top">
             <div class="twitter"><a href="https://twitter.com/UmeshuLovers" target="_blank"><img src="assets/twitter.png" width=100%/></a></div>
             <div class="facebook"><a href="https://www.facebook.com/forestofliars/" target="_blank"><img src="assets/facebook.png" width=100%/></a></div>
         </div>
 
         <div class="container">
+            
+            <div>
+                <div id="kickstarter"><a href="https://www.kickstarter.com/projects/2046612117/forest-of-liars-a-narrative-adventure-game
+" target="_blank"><img src="assets/supportbutton.png" width=45%/></a></div>
+            </div>
             
             <p class="txt-1">
                 The Forest of Liars is a vast, lush labyrinth known for its ethereal beauty, but no one who has
@@ -68,14 +44,6 @@
             <div class="intrinsic-container intrinsic-container-16x9">
                 <iframe src="https://www.youtube.com/embed/D0_lNEcxq2c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-
-            
-            <div>
-                </br>
-                <div id="kickstarter"><img width="70%" src="assets/head.png"/><div id="demo"></div></div>
-                
-            </div>
-
 
             <p class="txt-2">
                 Forest of Liars is an adventure game that delivers a different experience every time
